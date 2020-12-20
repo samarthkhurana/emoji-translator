@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  align-items: center;
+  background-image: url(https://cdn.asiatatler.com/asiatatler/i/sg/2019/10/23231025-denys-nevozhai-uzagqg756ou-unsplash_cover_2000x1449.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.app-panel {
+  background-color: rgba(255, 255, 255, 0.452);
+  padding: 2rem;
+  max-width: 60rem;
+  margin: 2rem auto;
+  border-radius: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  display: block;
+  margin: auto;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.452);
+  font-size: large;
+  font-family: inherit;
+}
+
+.emojiList {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.emoji {
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+}
